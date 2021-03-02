@@ -1,0 +1,72 @@
+#hangman {
+  width: 90%;
+  margin: 50px auto;
+}
+#output {
+  display: flex;
+  justify-content: space-between;
+}
+#output .step {
+  flex-basis: 10%;
+  opacity: 0.1;
+}
+#output .step img {
+  width: 100%;
+  height: auto;
+}
+#word {
+  margin: 50px 0;
+  padding: 50px;
+  border: 3px solid black;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+#category {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+#letters button {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+@media (max-width: 720px) {
+  #word {
+    font-size: 36px;
+    padding: 25px;
+  }
+}
+@media (max-width: 550px) {
+  #word {
+    font-size: 30px;
+    padding: 25px;
+  }
+}
+@media (max-width: 480px) {
+  #hangman {
+    width: 96%;
+  }
+  #word {
+    font-size: 24px;
+    padding: 25px;
+  }
+  #category {
+    font-size: 20px;
+  }
+}
+@media (max-width: 550px) {
+  #word {
+    font-size: 18px;
+    padding: 15px;
+  }
+}
+@media (max-width: 359px) {
+  #word {
+    font-size: 16px;
+    padding: 15px;
+  }
+}
